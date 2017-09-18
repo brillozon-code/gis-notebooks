@@ -23,6 +23,10 @@ docker build -t gis-notebooks .
 
 ### Running from Linux
 
+```bash
+docker run -it --rm -p 8888:8888 -v $(pwd):/home/jovyan/local brillozon/gis-notebooks
+```
+
 The default user for the container is `jovyan`.  The datascience notebook
 parent includes features that can be used at run time with this container
 as well.  For example, granting `sudo` access to the user.
