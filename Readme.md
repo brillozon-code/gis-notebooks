@@ -1,8 +1,7 @@
 # GIS Jupyter Notebooks
 
 This repository builds a container image that includes the Jupyter Data
-Science notebook platform.  It then builds and installs OpenCV along with
-its Python bindings.
+Science notebook platform.  It also installs GDAL, GEOS, and their Python bindings.  Theano and Tensorflow are also installed.
 
 The container image is based on the
 [jupyter/datascience-notebook:cf6258237ff9](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)
